@@ -1,9 +1,10 @@
-import Footer from '@/components/Footer';
+
 import LastUpdet from '@/components/LastUpdet';
 import MainTitle from '@/components/MainTitle';
 import NavList from '@/components/NavList';
+import Pagination from '@/components/Pagination';
 import SignUp from '@/components/SignUp';
-import React from 'react';
+
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <MainTitle />
       <LastUpdet />
       <NavList />
+      <Pagination />
       <SignUp />
     </div>
   );
