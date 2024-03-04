@@ -9,17 +9,17 @@ const SignUp = () => {
         </h1>
       </div>
       <div>
-        <div class="w-full max-w-sm mx-auto mt-6 bg-transparent border rounded-md dark:border-none focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 dark:focus-within:border-blue-300 focus-within:ring-opacity-40">
-          <form class="flex flex-col md:flex-row">
+        <div className="w-full max-w-sm mx-auto mt-6 bg-transparent border rounded-md dark:border-none focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 dark:focus-within:border-blue-300 focus-within:ring-opacity-40">
+          <form className="flex flex-col md:flex-row">
             <input
               type="email"
               placeholder=""
-              class="flex-1 h-[52px] md:w-[445px] px-4 py-2 m-1 text-gray-700 placeholder-white rounded border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0"
+              className="flex-1 h-[52px] md:w-[445px] px-4 py-2 m-1 text-gray-700 placeholder-white rounded border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0"
             />
 
             <button
               type="button"
-              class="h-[52px] md:w-[97px] rounded-l-none rounded-r-xl px-4 py-2 m-1 text-white transition-colors text-[14px] duration-300 transform bg-[#1B88F4] rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400"
+              className="h-[52px] md:w-[97px] rounded-l-none rounded-r-xl px-4 py-2 m-1 text-white transition-colors text-[14px] duration-300 transform bg-[#1B88F4] rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400"
             >
              Sign up
             </button>
