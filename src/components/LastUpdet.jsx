@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const LastUpdet = () => {
   return (
-    <div
+    <section
       className=" flex py-5 mt-9 bg-[#FBFCFD] border-y-[1.33px] border-[
 #E1E4E6]"
     >
@@ -20,7 +20,7 @@ const LastUpdet = () => {
           }}
         />
         <p className=" pl-3 mr-9 text-[#4B5665] text-[14px]">
-          Last Updated - February 22, 1717
+          Last Updated - February 22, 2020
         </p>
       </div>
       <div className="flex items-center">
@@ -39,7 +39,7 @@ const LastUpdet = () => {
           Advertising Disclosure
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

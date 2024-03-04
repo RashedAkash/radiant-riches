@@ -2,7 +2,7 @@
 
 const SignUp = () => {
   return (
-    <div className=" md:flex justify-around py-10 bg-[#FBFCFD]">
+    <section className=" md:flex justify-around py-10 bg-[#FBFCFD]">
       <div>
         <h1 className="text-center md:text-left text-[#5C6874] text-[32px]">
           Sign up and get exclusive <br /> special deals
@@ -26,7 +26,7 @@ const SignUp = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
