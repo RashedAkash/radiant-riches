@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 md:pt-10 md:px-24 md:pb-24  bg-[#212731] ">
+      <footer className="footer p-10 md:pt-10 md:px-28 md:pb-28  bg-[#212731] ">
         <nav>
           <h6 className=" uppercase mb-4 text-white text-[16px]">Categories</h6>
           <a className="link text-[13px] text-[#B6BDC3] mb-3 link-hover ">
