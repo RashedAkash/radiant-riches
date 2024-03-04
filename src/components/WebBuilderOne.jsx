@@ -1,8 +1,7 @@
 import Image from "next/image";
-import WebBuilerBtn from "./WebBuilerBtn";
 
 
-const WebBuilderCard = () => {
+const WebBuilderOne = () => {
   return (
     <div className=" px-[30px] pb-[30px] rounded-xl  bg-white">
       <div>
@@ -42,10 +41,12 @@ const WebBuilderCard = () => {
         <p className=" text-[#EF4C5D] text-[13px]">(20% Off)</p>
       </div>
       <div>
-        <WebBuilerBtn zero={zero} />
+        <button className="btn   btn-wide text-white bg-[#1B88F4] font-normal mt-5 text-[0px]">
+          View Deal
+        </button>
       </div>
     </div>
   );
 };
 
-export default WebBuilderCard;
+export default WebBuilderOne;
