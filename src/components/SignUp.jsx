@@ -4,7 +4,7 @@ const SignUp = () => {
   return (
     <div className=" md:flex justify-around py-10 bg-[#FBFCFD]">
       <div>
-        <h1 className=" text-[#5C6874] text-[32px]">
+        <h1 className="text-center md:text-left text-[#5C6874] text-[32px]">
           Sign up and get exclusive <br /> special deals
         </h1>
       </div>
@@ -14,12 +14,12 @@ const SignUp = () => {
             <input
               type="email"
               placeholder=""
-              class="flex-1 h-[52px] w-[445px] px-4 py-2 m-1 text-gray-700 placeholder-white rounded border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0"
+              class="flex-1 h-[52px] md:w-[445px] px-4 py-2 m-1 text-gray-700 placeholder-white rounded border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0"
             />
 
             <button
               type="button"
-              class="h-[52px] w-[97px] rounded-l-none rounded-r-xl px-4 py-2 m-1 text-white transition-colors text-[14px] duration-300 transform bg-[#1B88F4] rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400"
+              class="h-[52px] md:w-[97px] rounded-l-none rounded-r-xl px-4 py-2 m-1 text-white transition-colors text-[14px] duration-300 transform bg-[#1B88F4] rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400"
             >
              Sign up
             </button>
