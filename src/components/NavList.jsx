@@ -2,7 +2,7 @@
 
 const NavList = () => {
   return (
-    <section className=" flex justify-center md:justify-start mt-4 mb-7">
+    <nav className=" flex justify-center md:justify-start mt-4 mb-7">
       <ul className=" md:flex ">
         <li className="lg:mr-[52px] md:mr-[32px]">
           <a className=" text-[#4B5665] text-[13px]" href="">
@@ -35,7 +35,7 @@ const NavList = () => {
           </a>
         </li>
       </ul>
-    </section>
+    </nav>
   );
 };
 
