@@ -41,8 +41,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 text-[14px] text-[#D1D6DA]">
-            <div class="relative flex items-center   ">
-              <span class="absolute">
+            <div className="relative flex items-center   ">
+              <span className="absolute">
                 <button className="btn btn-ghost btn-circle">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ const Navbar = () => {
               <input
                 type="email"
                 placeholder=""
-                class="block w-full py-2.5 text-gray-700 placeholder-black bg-white border border-gray-200 rounded-lg pl-11 pr-5 rtl:pr-11 rtl:pl-5 dark:bg-white dark:text-gray-900 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                className="block w-full py-2.5 text-gray-700 placeholder-black bg-white border border-gray-200 rounded-lg pl-11 pr-5 rtl:pr-11 rtl:pl-5 dark:bg-white dark:text-gray-900 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
 
@@ -80,8 +80,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <div class="relative lg:hidden flex items-center   ">
-            <span class="absolute">
+          <div className="relative lg:hidden flex items-center   ">
+            <span className="absolute">
               <button className="btn btn-ghost btn-circle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ const Navbar = () => {
             <input
               type="email"
               placeholder=""
-              class="block w-full py-2.5 text-gray-700 placeholder-black bg-white border border-gray-200 rounded-lg pl-11 pr-5 rtl:pr-11 rtl:pl-5 dark:bg-white dark:text-gray-900 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full py-2.5 text-gray-700 placeholder-black bg-white border border-gray-200 rounded-lg pl-11 pr-5 rtl:pr-11 rtl:pl-5 dark:bg-white dark:text-gray-900 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
         </div>

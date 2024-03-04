@@ -4,6 +4,7 @@ import MainTitle from '@/components/MainTitle';
 import NavList from '@/components/NavList';
 import Pagination from '@/components/Pagination';
 import SignUp from '@/components/SignUp';
+import WebBuilder from '@/components/Webbuilder';
 
 
 const page = () => {
@@ -13,6 +14,7 @@ const page = () => {
       <LastUpdet />
       <NavList />
       <Pagination />
+      <WebBuilder />
       <SignUp />
     </div>
   );

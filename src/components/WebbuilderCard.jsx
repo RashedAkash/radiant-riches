@@ -1,6 +1,6 @@
-import React from 'react';
 
-const WebbuilderCard = () => {
+
+const WebBuilderCard = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const WebbuilderCard = () => {
   );
 };
 
-export default WebbuilderCard;
+export default WebBuilderCard;
