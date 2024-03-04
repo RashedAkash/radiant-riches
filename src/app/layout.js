@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className=" max-w-5xl mx-auto">{children}</div>
         <div className=" max-w-6xl mx-auto">
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
